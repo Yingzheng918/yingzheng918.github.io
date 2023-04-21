@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="renderer" content="webkit" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <meta http-equiv="Expires" content="0" />
+
+    <meta name="description" content="小豆快码 · 一个正在慢慢进化的个人知识库" />
+    <meta name="keywords" content="wiki,docsify,learn,share" />
+    <meta name="author" content="yingzheng918" />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <title>小豆快码</title>
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="assets/docsify/vue.min.css" />
+    <link rel="stylesheet" href="assets/docsify/plugin/docsify-sidebar-collapse.min.css" />
+    <link rel="stylesheet" href="assets/css/common.css" />
+  </head>
+  <body>
+    <div id="app">加载中...</div>
+
+    <script>
+      window.$docsify = {
+        disqus: "shortname",
+        // 文档标题
+        name: "小豆快码",
+        // 点击文档标题后跳转的链接地址
+        nameLink: "/",
+        // 配置仓库地址
+        repo: "",
+        // 加载自定义导航栏，会加载 _navbar.md 文件
+        loadNavbar: true,
+        // 加载自定义侧边栏，会加载 _sidebar.md 文件
+        loadSidebar: true,
+        // 在找不到指定页面时加载 _404.md
+        notFoundPage: true,
+        // 设置生成目录的最大层级
+        subMaxLevel: 2,
+        sidebarDisplayLevel: 1,
+        // 只在访问主页时加载封面
+        onlyCover: true,
+        // 切换页面后自动跳转到页面顶部
+        auto2top: true,
+        // 定义路由规则
+        alias: {
+          // 避免不必要的 _sidebar 回退
+          "/.*/_sidebar.md": "/_sidebar.md",
+          // 避免不必要的 _navbar 回退
+          "/.*/_navbar.md": "/_navbar.md",
+        },
+        // 加载自定义封面页，会加载 _coverpage.md 文件
+        coverpage: true,
+        // 小屏设备下合并导航栏到侧边栏
+        mergeNavbar: true,
+        // 跨域链接
+        crossOriginLinks: ["hm.baidu.com/", "gissues.gitee.io"],
+        // 配置全文搜索
+        search: {
+          // 过期时间，单位毫秒，默认一天
+          maxAge: 86400000,
+          paths: "auto",
+          placeholder: "搜索",
+          noData: "找不到结果",
+          depth: 2,
+          hideOtherSidebarContent: true,
+          namespace: "小豆快码",
+        },
+        // 配置代码赋值
+        copyCode: {
+          buttonText: "复制",
+          errorText: "复制失败",
+          successText: "复制成功",
+        },
+        // 配置分页导航
+        pagination: {
+          previousText: "上一篇",
+          nextText: "下一篇",
+          crossChapter: true,
+          crossChapterText: true,
+        },
+        // 配置字数统计
+        count: {
+          countable: true,
+          position: "top",
+          margin: "10px",
+          float: "right",
+          fontsize: "0.9em",
+          color: "rgb(90,90,90)",
+          language: "chinese",
+          localization: {
+            words: "",
+            minute: "",
+          },
+          isExpected: true,
+        },
+        // 配置标签页
+        tabs: {
+          persist: false,
+          sync: false,
+          theme: "classic",
+          tabComments: true,
+          tabHeadings: true,
+        },
+        // 配置进度
+        progress: {
+          position: "top",
+          color: "var(--theme-color,#42b983)",
+          height: "3px",
+        },
+        // 配置文本高亮
+        "flexible-alerts": {
+          style: "flat",
+        },
+        // 页脚信息插件
+        loadFooter: true,
+        loadFooter: "_footer.md",
+        // 百度统计ID
+        baiduTjId: "51c9ac12d50e3a3d29f4ed9ed5ef9083",
+        // 显示日期时间
+        timeUpdater: {
+          text: "<div align='center' width='200px' style='color:gray; font-size:10px;'>-------------- 最后更新时间:&emsp;{docsify-updated} --------------</div>",
+          formatUpdated: "{YYYY}/{MM}/{DD} {HH}:{mm}:{ss}",
+          whereToPlace: "bottom",
+        },
+      };
+    </script>
+
+    <script src="assets/docsify/docsify.min.js"></script>
+    <!-- 全文搜索 -->
+    <script src="assets/docsify/plugin/search.min.js"></script>
+    <!-- 支持 emoji -->
+    <script src="assets/docsify/plugin/emoji.min.js"></script>
+    <!-- 图片缩放 -->
+    <script src="assets/docsify/plugin/zoom-image.min.js"></script>
+    <!-- 复制代码 -->
+    <script src="assets/docsify/plugin/docsify-copy-code.min.js"></script>
+    <!-- 分页导航 -->
+    <script src="assets/docsify/plugin/docsify-pagination.min.js"></script>
+    <!-- 字数统计 -->
+    <script src="assets/docsify/plugin/countable.min.js"></script>
+    <!-- 外链脚本 -->
+    <script src="assets/docsify/plugin/external-script.min.js"></script>
+    <!-- 侧边栏手风琴效果 -->
+    <script src="assets/docsify/plugin/docsify-sidebar-collapse.min.js"></script>
+    <!-- 阅读进度 -->
+    <script src="assets/docsify/plugin/progress.min.js"></script>
+    <!-- 公共页脚 -->
+    <script src="assets/docsify/plugin/docsify-footer.min.js"></script>
+    <!-- 标签页 -->
+    <script src="assets/docsify/plugin/docsify-tabs.min.js"></script>
+    <!-- 文本高亮 -->
+    <script src="assets/docsify/plugin/docsify-plugin-flexible-alerts.min.js"></script>
+    <!-- 百度统计 -->
+    <script src="assets/docsify/plugin/docsify-baidu-tj.min.js"></script>
+    <!-- 日期时间 -->
+    <script src="assets/docsify/plugin/time-updater.min.js"></script>
+
+    <script src="assets/docsify/plugin/prism-aspnet.min.js"></script>
+    <script src="assets/docsify/plugin/prism-bash.min.js"></script>
+    <script src="assets/docsify/plugin/prism-csharp.min.js"></script>
+    <script src="assets/docsify/plugin/prism-css.min.js"></script>
+    <script src="assets/docsify/plugin/prism-go.min.js"></script>
+    <script src="assets/docsify/plugin/prism-java.min.js"></script>
+    <script src="assets/docsify/plugin/prism-javascript.min.js"></script>
+    <script src="assets/docsify/plugin/prism-json.min.js"></script>
+    <script src="assets/docsify/plugin/prism-markdown.min.js"></script>
+    <script src="assets/docsify/plugin/prism-nginx.min.js"></script>
+    <script src="assets/docsify/plugin/prism-php.min.js"></script>
+    <script src="assets/docsify/plugin/prism-properties.min.js"></script>
+    <script src="assets/docsify/plugin/prism-python.min.js"></script>
+    <script src="assets/docsify/plugin/prism-rust.min.js"></script>
+    <script src="assets/docsify/plugin/prism-sql.min.js"></script>
+    <script src="assets/docsify/plugin/prism-xml-doc.min.js"></script>
+    <script src="assets/docsify/plugin/prism-yaml.min.js"></script>
+
+    <!-- 公共脚本 -->
+    <script src="assets/js/common.js"></script>
+    <!-- <script src="assets/js/cursor/background-cobweb.js"></script> -->
+  </body>
+</html>
