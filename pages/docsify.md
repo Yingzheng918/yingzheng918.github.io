@@ -263,6 +263,8 @@ docs/zh-cn/guide.md   => http://domain.com/zh-cn/guide
 - ✔️ [页脚增强](https://alertbox.github.io/docsify-footer)
 - ✔️ [文本高亮](https://github.com/fzankl/docsify-plugin-flexible-alerts)
 - ✔️ [百度统计](https://github.com/mg0324/docsify-baidu-tj)
+- ❌ [加密解密](https://www.clboy.cn/archives/docsify%E6%96%87%E6%A1%A3%E5%8A%A0%E5%AF%86%E8%A7%A3%E5%AF%86%E6%8F%92%E4%BB%B6)，需要依赖：[crypto-js](https://github.com/brix/crypto-js)
+- ❌ [网页目录](https://github.com/mrpotatoes/docsify-toc)
 - [更多插件](https://docsify.js.org/#/awesome?id=plugins)
 
 ## 开发插件 :id=write-a-plugin
