@@ -7,5 +7,5 @@
 - 个人 wiki 站
 - 学习、创造、分享
 
-[Gitee](https://gitee.com/yingzheng918)
-[Get Started](/README.md)
+[码云](https://gitee.com/yingzheng918)
+[开始](/README.md)

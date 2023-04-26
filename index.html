@@ -16,6 +16,7 @@
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="assets/docsify/vue.min.css" />
     <link rel="stylesheet" href="assets/docsify/plugin/docsify-sidebar-collapse.min.css" />
+    <!-- <link rel="stylesheet" href="assets/docsify/plugin/toc.css" /> -->
     <link rel="stylesheet" href="assets/css/common.css" />
   </head>
   <body>
@@ -28,7 +29,7 @@
         // 点击文档标题后跳转的链接地址
         nameLink: "/",
         // 配置仓库地址
-        repo: "",
+        repo: "https://gitee.com/yingzheng918",
         // 加载自定义导航栏，会加载 _navbar.md 文件
         loadNavbar: true,
         // 加载自定义侧边栏，会加载 _sidebar.md 文件
@@ -104,7 +105,7 @@
         },
         // 配置进度
         progress: {
-          position: "top",
+          position: "bottom",
           color: "var(--theme-color,#42b983)",
           height: "3px",
         },
@@ -123,6 +124,12 @@
           formatUpdated: "{YYYY}/{MM}/{DD} {HH}:{mm}:{ss}",
           whereToPlace: "bottom",
         },
+        // 网页目录
+        // toc: {
+        //   scope: ".markdown-section",
+        //   headings: "h1, h2, h3, h4, h5, h6",
+        //   title: "Table of Contents",
+        // },
       };
     </script>
 
@@ -155,6 +162,8 @@
     <script src="assets/docsify/plugin/docsify-baidu-tj.min.js"></script>
     <!-- 日期时间 -->
     <script src="assets/docsify/plugin/time-updater.min.js"></script>
+    <!-- 网页目录 -->
+    <!-- <script src="assets/docsify/plugin/toc.js"></script> -->
 
     <script src="assets/docsify/plugin/prism-aspnet.min.js"></script>
     <script src="assets/docsify/plugin/prism-bash.min.js"></script>
