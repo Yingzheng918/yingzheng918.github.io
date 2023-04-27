@@ -1,3 +1,3 @@
-- [简介](/README)
+- [简介](/)
 - [站点生成 - docsify](/pages/docsify)
 - [标记语言 - markdown](/pages/markdown)
