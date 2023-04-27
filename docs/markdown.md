@@ -169,7 +169,7 @@
 > 给图片增加链接，请将图像的 Markdown 括在方括号中，然后将链接添加在圆括号中
 
 - 语法：`[![沙漠中的岩石图片](/assets/img/shiprock.jpg "Shiprock")](https://markdown.com.cn)`
-- html：`<a href="https://markdown.com.cn"><img src="/pages/assets/img/shiprock.jpg" alt="沙漠中的岩石图片" title="Shiprock"></a>`
+- html：`<a href="https://markdown.com.cn"><img src="/assets/img/shiprock.jpg" alt="沙漠中的岩石图片" title="Shiprock"></a>`
 
 > 本地图像，使用 base64 方式
 
