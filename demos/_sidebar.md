@@ -1,2 +1,2 @@
 - [简介](/demos/)
-- [pdf.js](/demos/pdf.js)
+- [clipboard.js](/demos/clipboard.js)
